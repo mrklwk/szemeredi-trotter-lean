@@ -1,0 +1,151 @@
+{
+  "source_commit": "d80ac90c2a9c4316f9d2052300b607c14804cb36",
+  "source_status_before": "",
+  "platform": "Linux-7.0.0-34-generic-x86_64-with-glibc2.43",
+  "lean": "Lean (version 4.35.0-rc2, x86_64-unknown-linux-gnu, commit 11acb17ec6b07a8f9e9173e6845197929540936b, Release)",
+  "bubblewrap": "bubblewrap 0.11.1",
+  "project_build_directory_existed": false,
+  "source_sha256": {
+    "Challenge.lean": "5a855576d24ffcfa11e72273d93895d3886b27ba32155d9ed000859bf981b3b9",
+    "MathCollab/AffineNormalization.lean": "03eab9afbe1594d2d24bf7a746042fb9887d6aeb29a3fd3507047067b60c6a3f",
+    "MathCollab/DegreeSpaces.lean": "fca8e7bbf61c6c52cb8b6c54dee6c8c46c8421f89f82c591b516ac4c91cbfdcc",
+    "MathCollab/Exceptional.lean": "13acd05d38e965cf4b63a6d8d38b60b8604798968a55c7723051a804d2bcc032",
+    "MathCollab/ExceptionalExamples.lean": "3bd82503ffedf46021acb4fe561fc7eb99cba14a29c6fc9a09e689ca67297087",
+    "MathCollab/FamilySpace.lean": "73a022a3dd8991874fdd2c07fa636f349d34b45da25b1276ea73a9eebc115da5",
+    "MathCollab/FamilySpaceExamples.lean": "ff8bb57eae492daa96422cbdd77d5f7799fcdfabe62e1101e11f33923a04e478",
+    "MathCollab/FinitePlaneIncidence.lean": "2bd88214fb9b1edb34be718800cb7c9bfc78a4ce8389e694dbbb134133ff8e92",
+    "MathCollab/GenericCoordinates.lean": "65eb0f744a45648138c4ba0655f44138cca555adf4e2207d7a5ecf98e734ff4e",
+    "MathCollab/GenericSlope.lean": "437118484a7e7622dd592e0f0a8393da86f34a036954f1f28d05f4d5ed814cc5",
+    "MathCollab/GenericSlopeExamples.lean": "e530e20b960ee35bab654a4d5cb788fe6ed8fc2b0d03f8cb714f808807444b71",
+    "MathCollab/IncidenceCounting.lean": "13c72abec76edd84de4d7c6f2b5ad9e44a686e8de8e2f76144abd1bcdf41e93f",
+    "MathCollab/IncidenceCountingExamples.lean": "95c62156945a43df2c8c3e8997d73a574c2a88fa0991e0160f4d2a51cce83dfe",
+    "MathCollab/IncidenceOptimization.lean": "350ca58577ef3f92e93aeda3b144117b1eb2470ea9834774b529e5ac58623a3b",
+    "MathCollab/IncidenceOptimizationExamples.lean": "46f7eab0ee69598d4e9afc0dee8caf84773a8f01dcb293b954801972c977f4fb",
+    "MathCollab/IncidencePrime.lean": "92b3035a9eeb07a3c2807e63778bbed59c1006feae79f7bf66b6321b3f088e98",
+    "MathCollab/IncidencePrimeAudit.lean": "4e69acc26662735d6e136bed68e327530d6585d8cb493c6b33283db938fbe724",
+    "MathCollab/IncidenceSharper.lean": "bbefcb33cdfc0676fe4b4b24a25c1751014cc7f2192eb7f66cb8f1fc153738b5",
+    "MathCollab/IncidenceSharperExamples.lean": "146efed00ce39c1fd624cf1e5cf83b14cf3d53d9fecf8f94de7004d698eeea27",
+    "MathCollab/IncidenceSubcritical.lean": "001de4c9601e0e68824e0aedf9fdba31f10ccc3d66aea9dc4405a38903797d8f",
+    "MathCollab/IncidenceTheorem.lean": "0b411c4e88f6638f9d225c14963eec5c6b35f9e3a9f9bda7311a1e426a4db015",
+    "MathCollab/IncidenceTheoremExamples.lean": "d46e2bd013a482a2853dbab72e070703ec557f1a341bb55a5c27d9c0c6952cb9",
+    "MathCollab/JetBudget.lean": "f9f3937674b25bf459f06b7ec99e91545f1bd303a40c7f3f529b4d2f1ffaf6fd",
+    "MathCollab/JetBudgetAudit.lean": "bf2f8940638232d2fdba574c54b7055842b787e390a90730944c49e4ef94fd76",
+    "MathCollab/Jets.lean": "331f4f46014d01a2396a8354842c603848cd5196fa521322339d9d9271511f31",
+    "MathCollab/JetsAudit.lean": "94219b256c114beb0e567be357379f11ac53c713a962820edb3ea92f58d6879b",
+    "MathCollab/MathlibSmoke.lean": "34a4211eca85238d520d50485a830e559cbbc4a888d5c7dff166cdbbda8f905e",
+    "MathCollab/MulSpaces.lean": "ed0511b97a7ad5a79929c41ef282d0165c4e37e61fe3bef35ca0fea092dc8f5a",
+    "MathCollab/Multiplicity.lean": "23f3eefec95e4916f4c80d72b720adcda62bf9c1d8edddb7dc036b3e701262c3",
+    "MathCollab/MultiplicityAudit.lean": "72493758aa4e2d4968125adecd9b947ee430056d9c5c570a9344a5896440e289",
+    "MathCollab/MultiplicityParallel.lean": "457da3914d3c6e61cbb4790e51cd19d0067a7e5074d1165cf3838b01e20b63cd",
+    "MathCollab/NormalizedIncidence.lean": "5a701deb03a9d010ebd2d628d9a84783b698f2ad5db07ef5a81d8c8204ed981a",
+    "MathCollab/NormalizedIncidenceExamples.lean": "96dd81928ee191622cd691b29a1295e94cd5fc0e21a194d5e0aeee25973902d4",
+    "MathCollab/Parameterized.lean": "170e8a49cab75dec24ad7838c572c1bd9798317ad6f078a38fb00d9f24af89c8",
+    "MathCollab/SlopeForcing.lean": "ffb22f1dbd21bc1a70cc0315e7067c43f2f8bdff4eedab88e705c1d1b76f3d86",
+    "MathCollab/SlopeForcingExamples.lean": "82e0b162074d07dedc73d932b06d96828778c71af7caa1d8de1b274efc7b4fcf",
+    "MathCollab/SlopeSubstitution.lean": "0d35f54f0f776ffee6f0b5255eec05da2c6be5c69260e86222c0f2ba6fa2de7b",
+    "MathCollab/SlopeSubstitutionExamples.lean": "32599293a1aca0a3ddccca3dc60927c8d8f3260bbdea258f0034544b281d000f",
+    "MathCollab/Smoke.lean": "aa482210262342510610fe9de9a486eebb011faa2d09bd625ac981feb653ea44",
+    "MathCollab/SquarefreeFamily.lean": "f2b03cbddea8ebb42dc9a6e3fbed4a50aa50a722dcd66c3cedb3efc0593f87e9",
+    "MathCollab/SquarefreeFamilyExamples.lean": "80d036d8fc6bfa11e6d7d1afe7c6c8b88dead2fe32b4f6c8fc28cd434662560a",
+    "MathCollab.lean": "252cdfbbf8a364e862c0026f7b4a77c89943da14af0b4796f8cbb871cb6c7236",
+    "Solution.lean": "261cfbf1a5e941a18b9bd416939fc37d0d4b117f86b625a0b5f1df0e9be35b69"
+  },
+  "dependencies": [
+    {
+      "name": "mathlib",
+      "rev": "065356127b1dc0016f66b7283ce0ce2c4055aa55",
+      "tracked_changes": ""
+    },
+    {
+      "name": "plausible",
+      "rev": "e50948299c4dc4a4c21b1c34b6a6a4fddc19f912",
+      "tracked_changes": ""
+    },
+    {
+      "name": "LeanSearchClient",
+      "rev": "95e037bfdc31d3916ac615446847fb01960e2719",
+      "tracked_changes": ""
+    },
+    {
+      "name": "importGraph",
+      "rev": "10930f8138f0462dbd744a91fc03a16fae0e046f",
+      "tracked_changes": ""
+    },
+    {
+      "name": "proofwidgets",
+      "rev": "4c70ac059693669e5756e32a7a94b57ee1e99dc5",
+      "tracked_changes": ""
+    },
+    {
+      "name": "aesop",
+      "rev": "75d936c7af167cc93fac0d31237682fc2204591d",
+      "tracked_changes": ""
+    },
+    {
+      "name": "Qq",
+      "rev": "786b7acdca7eb4e9c76c5d1d5bd810e7e5c56334",
+      "tracked_changes": ""
+    },
+    {
+      "name": "batteries",
+      "rev": "ed9b316aabe389fec1ef43c3326ab48c7e59be42",
+      "tracked_changes": ""
+    },
+    {
+      "name": "Cli",
+      "rev": "2842b9871b04862f944c032e34052cb9448ccb71",
+      "tracked_changes": ""
+    }
+  ],
+  "stages": [
+    {
+      "name": "source-check",
+      "command": [
+        "python3",
+        "scripts/check-sources.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.139,
+      "log_sha256": "d4cfe058a4a4ecaea142fddac4ffc7e45f85d912b9dbdeffd334baa295fe89e4",
+      "command_display_note": "Original used the system Python executable; displayed by command name."
+    },
+    {
+      "name": "full-build",
+      "command": [
+        "lake",
+        "--no-cache",
+        "--wfail",
+        "build"
+      ],
+      "exit_code": 0,
+      "seconds": 19.722,
+      "log_sha256": "78f9bf1aed191a79afc72a925c3d0e219c215a382f4cfd3ffdb38e48e625709b"
+    },
+    {
+      "name": "solution-axioms",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-DwarningAsError=true",
+        "Solution.lean"
+      ],
+      "exit_code": 0,
+      "seconds": 1.106,
+      "log_sha256": "fab320858d687074ec789ac8840cc491c1864d5519a8f557df7a84300b7f7b97"
+    },
+    {
+      "name": "official-comparator",
+      "command": [
+        "bash",
+        "scripts/verify-comparator.sh"
+      ],
+      "exit_code": 0,
+      "seconds": 44.972,
+      "log_sha256": "c09fb50e79470fcebc909f1da5f50124c11e96e8ea179ddb99cb2ba39c05d3f9"
+    }
+  ],
+  "status": "passed",
+  "source_status_after": "",
+  "record_kind": "Portable summary of an archived run; machine-local filesystem locations omitted; not a new execution."
+}
