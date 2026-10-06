@@ -1,0 +1,41 @@
+{
+  "result": "PASS: official license detector, root-license gate, and exact metadata identifier comparison",
+  "official_submission_commit": "d4e41c1d5b0d114c4859e6e5831dc6d3ad1d0d44",
+  "detector_script_sha256": "7cc4ad2c63633b307c42808cbe29b6df799ef93f6c7560456e2637bc376f35f8",
+  "official_python_verifier_sha256": "c575759d82c506f181b3736a110950fd32931c08a1be454262027d6205f178a2",
+  "licensee_version": "10.0.0",
+  "licensee_gem_sha256": "b0832ae91bd84bf7b4ec16dca72966b1116e10b6fc8a3c050517d20654b46d3b",
+  "runtime": "ruby 4.0.6 (2026-07-14 revision 03b6d3f889) +PRISM [arm64-darwin20]",
+  "detector_exit_code": 0,
+  "detector_result": {
+    "licenses": [
+      {
+        "spdx_id": "AGPL-3.0"
+      }
+    ],
+    "matched_files": [
+      {
+        "matched_license": "AGPL-3.0"
+      }
+    ]
+  },
+  "metadata_yaml_parsed": true,
+  "declared_identifier": "AGPL-3.0",
+  "detected_identifier": "AGPL-3.0",
+  "exact_match": true,
+  "official_root_license_gate_executed": true,
+  "official_exact_comparison_executed": true,
+  "license_sha256": "d8a6cc31abc16b6748c7a21f21611f5a1ec33f67d22ca23d7da1c19b95496bee",
+  "license_bytes_unchanged": true,
+  "actual_license_grant": "AGPL-3.0-only",
+  "broader_license_grant": false,
+  "full_palomar_readiness": false,
+  "remaining_metadata": [
+    "Human formalization authors",
+    "Responsible maintainers"
+  ],
+  "linux_comparator_reference_commit": "eb95d6f0e79c65cf770a7b1e30e0eeaee0cd16f1",
+  "linux_comparator_rerun": false,
+  "reason_no_kernel_rerun": "At d416282, all 43 Lean files and seven build/check inputs matched the recorded Linux Comparator pass; metadata and provenance changes did not modify them.",
+  "record_kind": "Portable summary of the archived license check; machine-local invocation path omitted; not a new detector run."
+}

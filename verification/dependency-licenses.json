@@ -1,0 +1,146 @@
+[
+  {
+    "name": "mathlib",
+    "rev": "065356127b1dc0016f66b7283ce0ce2c4055aa55",
+    "notices": [
+      {
+        "file": "LICENSE",
+        "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+        "heading": [
+          "                                 Apache License",
+          "                           Version 2.0, January 2004",
+          "                        http://www.apache.org/licenses/",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "name": "plausible",
+    "rev": "e50948299c4dc4a4c21b1c34b6a6a4fddc19f912",
+    "notices": [
+      {
+        "file": "LICENSE",
+        "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+        "heading": [
+          "                                 Apache License",
+          "                           Version 2.0, January 2004",
+          "                        http://www.apache.org/licenses/",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "name": "LeanSearchClient",
+    "rev": "95e037bfdc31d3916ac615446847fb01960e2719",
+    "notices": [
+      {
+        "file": "LICENSE",
+        "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+        "heading": [
+          "                                 Apache License",
+          "                           Version 2.0, January 2004",
+          "                        http://www.apache.org/licenses/",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "name": "importGraph",
+    "rev": "10930f8138f0462dbd744a91fc03a16fae0e046f",
+    "notices": [
+      {
+        "file": "LICENSE",
+        "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+        "heading": [
+          "                                 Apache License",
+          "                           Version 2.0, January 2004",
+          "                        http://www.apache.org/licenses/",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "name": "proofwidgets",
+    "rev": "4c70ac059693669e5756e32a7a94b57ee1e99dc5",
+    "notices": [
+      {
+        "file": "LICENSE",
+        "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+        "heading": [
+          "                                 Apache License",
+          "                           Version 2.0, January 2004",
+          "                        http://www.apache.org/licenses/",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "name": "aesop",
+    "rev": "75d936c7af167cc93fac0d31237682fc2204591d",
+    "notices": [
+      {
+        "file": "LICENSE",
+        "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+        "heading": [
+          "                                 Apache License",
+          "                           Version 2.0, January 2004",
+          "                        http://www.apache.org/licenses/",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Qq",
+    "rev": "786b7acdca7eb4e9c76c5d1d5bd810e7e5c56334",
+    "notices": [
+      {
+        "file": "LICENSE",
+        "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+        "heading": [
+          "                                 Apache License",
+          "                           Version 2.0, January 2004",
+          "                        http://www.apache.org/licenses/",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "name": "batteries",
+    "rev": "ed9b316aabe389fec1ef43c3326ab48c7e59be42",
+    "notices": [
+      {
+        "file": "LICENSE",
+        "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+        "heading": [
+          "                                 Apache License",
+          "                           Version 2.0, January 2004",
+          "                        http://www.apache.org/licenses/",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cli",
+    "rev": "2842b9871b04862f944c032e34052cb9448ccb71",
+    "notices": [
+      {
+        "file": "LICENSE",
+        "sha256": "f7e95706807e931782b6efd9a9d2789508a52423ad67b56ee7e5e324362d4aac",
+        "heading": [
+          "MIT License",
+          "",
+          "Copyright (c) 2021 mhuisi",
+          ""
+        ]
+      }
+    ]
+  }
+]

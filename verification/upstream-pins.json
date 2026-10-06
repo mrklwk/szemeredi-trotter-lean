@@ -1,0 +1,61 @@
+{
+  "lean_release": "v4.35.0-rc2",
+  "linux_archive_sha256": "b67d0e0ba959fc74e186f1b44aebca32d6ecb6a28f8e9a029fc4e9f73398a049",
+  "palomar_template_commit": "2891de4c48955af824969a263d31b25e7a9a1406",
+  "palomar_policy_commit": "96b034cc31a72a63d4f4041911dce337a85c9a04",
+  "spdx_license_text_commit": "31ba1a50e5397e00a304dbadc76531740e89ee48",
+  "official_files": [
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/spdx/license-list-data/31ba1a50e5397e00a304dbadc76531740e89ee48/text/AGPL-3.0-only.txt",
+      "sha256": "d8a6cc31abc16b6748c7a21f21611f5a1ec33f67d22ca23d7da1c19b95496bee",
+      "bytes": 34020
+    },
+    {
+      "path": "third_party/PalomarTemplate.LICENSE",
+      "url": "https://raw.githubusercontent.com/PalomarRegistry/PalomarTemplate/2891de4c48955af824969a263d31b25e7a9a1406/LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357
+    },
+    {
+      "path": "scripts/verify-comparator.sh",
+      "url": "https://raw.githubusercontent.com/PalomarRegistry/PalomarTemplate/2891de4c48955af824969a263d31b25e7a9a1406/scripts/verify-comparator.sh",
+      "sha256": "4fefa0e6c779448143b3164f56e96c3b6f719de67da335fa445127ab55f9b1e2",
+      "bytes": 2363
+    },
+    {
+      "url": "https://raw.githubusercontent.com/PalomarRegistry/PalomarTemplate/2891de4c48955af824969a263d31b25e7a9a1406/lake-manifest.json",
+      "sha256": "f1c28f6c338a5316461d2e128a7a4a71b20c0d4a88b986d5b98989f6c9a6b550",
+      "bytes": 3141,
+      "upstream_artifact_name": "template-manifest.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/leanprover-community/mathlib4/065356127b1dc0016f66b7283ce0ce2c4055aa55/lake-manifest.json",
+      "sha256": "87a66cd9524871ecee488615262236e366330c8db26ee62965d92aa9a7d88fa7",
+      "bytes": 2815,
+      "upstream_artifact_name": "mathlib-manifest.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/leanprover-community/mathlib4/065356127b1dc0016f66b7283ce0ce2c4055aa55/lean-toolchain",
+      "sha256": "8dc8d6f560141069d9073e370611716ef77ada0da8ffa37e2149f44b2e63ac7a",
+      "bytes": 29,
+      "upstream_artifact_name": "mathlib-lean-toolchain"
+    }
+  ],
+  "dependencies": {
+    "mathlib": "065356127b1dc0016f66b7283ce0ce2c4055aa55",
+    "plausible": "e50948299c4dc4a4c21b1c34b6a6a4fddc19f912",
+    "LeanSearchClient": "95e037bfdc31d3916ac615446847fb01960e2719",
+    "importGraph": "10930f8138f0462dbd744a91fc03a16fae0e046f",
+    "proofwidgets": "4c70ac059693669e5756e32a7a94b57ee1e99dc5",
+    "aesop": "75d936c7af167cc93fac0d31237682fc2204591d",
+    "Qq": "786b7acdca7eb4e9c76c5d1d5bd810e7e5c56334",
+    "batteries": "ed9b316aabe389fec1ef43c3326ab48c7e59be42",
+    "Cli": "2842b9871b04862f944c032e34052cb9448ccb71"
+  },
+  "palomar_submission_commit": "d4e41c1d5b0d114c4859e6e5831dc6d3ad1d0d44",
+  "minimum_toolchain_policy": {
+    "schema_version": 2,
+    "minimum": "v4.35.0-rc2"
+  }
+}
