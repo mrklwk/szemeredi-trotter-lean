@@ -74,6 +74,6 @@
     "verification/linux-initial/solution-axioms.log": "fab320858d687074ec789ac8840cc491c1864d5519a8f557df7a84300b7f7b97",
     "verification/linux-initial/full-build.log": "78f9bf1aed191a79afc72a925c3d0e219c215a382f4cfd3ffdb38e48e625709b",
     "verification/linux-initial/official-comparator.log": "c09fb50e79470fcebc909f1da5f50124c11e96e8ea179ddb99cb2ba39c05d3f9",
-    ".github/workflows/palomar-preflight.yml": "6b1cbe02db6bc80989a301d724e37ccefc9e57835b9f438d94d136a3d1eaee52"
+    ".github/workflows/palomar-preflight.yml": "7f0e8847c671c5885edf90b11ebae2774565b947c0be25c46473efad8214c3f0"
   }
 }
