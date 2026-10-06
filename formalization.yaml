@@ -1,0 +1,119 @@
+# Release preparation from proof-only base d416282b3692a57c27baa034a0758d6abe22f3cf.
+version: v0.4
+project:
+  name: Explicit Szemerédi–Trotter bounds over arbitrary fields
+  description: >-
+    We formalize four explicit Szemerédi–Trotter incidence bounds for m distinct
+    points and n distinct affine lines in a field plane. In characteristic zero
+    the bound is 3(mn)^(2/3) + m + n. In positive characteristic p, an arbitrary
+    field admits the additional term 2mn/p. This term is absent when mn ≤ p³.
+    Over the prime field ZMod p the additional term improves to mn/p without a
+    size restriction. The development adapts the author's polynomial-method
+    argument, uses generic coordinates for the improved linear term, and proves
+    a finite-plane counting estimate for the prime-field refinement.
+  authors: [Mark Lewko]
+  # Palomar/licensee 10.0.0 requires this exact legacy detector spelling.
+  # The approved actual grant remains AGPL-3.0-only; LICENSE is unchanged.
+  license: AGPL-3.0
+  responsible_maintainers: [Mark Lewko]
+classification:
+  arxiv: [math.CO]
+  msc2020: [52C10, 05B25]
+sources:
+  - title: A Szemeredi-Trotter Theorem in Arbitrary Fields
+    authors: [Mark Lewko]
+    id: arXiv:2609.27023v2
+    type: paper
+    location: https://arxiv.org/abs/2609.27023v2
+    relationship: adapts
+    note: >-
+      Main mathematical source. The formalization strengthens the v2 comparison
+      target 3(mn)^(2/3)+2m+n+2mn/p by saving one m term using generic coordinates;
+      the characteristic term is absent in characteristic zero. The subcritical
+      and prime-field refinements are additional formalized statements, not
+      quotations of those stronger constants from v2. Paper applications are
+      excluded. A separate revised paper is not assigned an invented public URL.
+  - title: Szemeredi-Trotter type theorem and sum-product estimate in finite fields
+    authors: [Le Anh Vinh]
+    id: arXiv:0711.4427
+    type: paper
+    location: https://arxiv.org/abs/0711.4427
+    relationship: background
+    note: >-
+      Context for the finite-field estimate mn/q+sqrt(qmn). The auxiliary Lean
+      theorem proves this estimate directly by finite-plane counting and a
+      variance argument; it is not an imported theorem assumption.
+related_formalizations: []
+status:
+  scope: >-
+    Four complete incidence bounds for ordinary finite point and affine-line
+    sets, including empty sets and characteristic two. In general the
+    denominator p is the field characteristic, not the field cardinality.
+    Only the prime-field theorem uses ZMod p; coefficient one on mn/p is not
+    asserted for arbitrary extension fields. The subcritical hypothesis is
+    inclusive: mn <= p^3. Leading coefficient 3 is not claimed optimal.
+    Paper applications are outside the formalized scope.
+  sorry_count: 0 # Proof development; excludes four statement-only Challenge holes.
+  sorry_in_definitions: 0
+  axioms: [propext, Classical.choice, Quot.sound]
+automation:
+  methods:
+    - method: agent
+      models: [] # Exact session model revisions are not reconstructed.
+      framework: Codex and Claude
+      tool_setup: >-
+        Separate local Lean worktrees with explicit source ownership. Recorded
+        Linux verification used a network-isolated Ubuntu VM, an unprivileged
+        account, pinned dependencies and the unchanged official Palomar
+        Comparator launcher. Portable verification evidence records exact revisions,
+        commands, exit codes and theorem dependencies.
+  notes: >-
+    The author supplied the mathematical source and directed the work. Claude
+    and Codex developed the formal proofs; Codex assembled the refined bounds
+    and package. Separate agent audits and machine checks are distinguished
+    from human review. The author and responsible maintainer are recorded separately from the AI
+    assistance. No human peer review is claimed.
+fidelity:
+  divergences: >-
+    The line type is AffineSubspace K (K x K), with rank-one direction required
+    for every member of the finite line set. Incidences are the cardinality of
+    the filtered Cartesian product. The exponent is real 2/3. General bounds
+    allow arbitrary fields and have linear terms m+n; the prime-field result
+    has characteristic term mn/p. Generic coordinates preserve geometric
+    distinctness and incidence counts. No generic-position hypothesis is
+    assumed of the input configuration.
+review:
+  status: self-assessed
+  notes: >-
+    Mathematical checkpoint 4556eff and module release 27d27da received separate
+    agent audits, fresh builds and fresh Lean kernel replay. All 42 proof
+    modules are byte-identical after migration to Lean 4.35.0-rc2 with mathlib
+    065356127b1dc0016f66b7283ce0ce2c4055aa55. The archived initial Linux run at
+    d80ac90 passed from an empty project build directory; the repeat at
+    eb95d6f also passed. Each had source, build, final-axiom and official
+    Comparator checks with exit code zero. Lean, NanoDa and con-ron accepted.
+    All 43 Lean files and seven build/check inputs at d416282 match eb95d6f.
+    This release preparation reviewed the recorded logs and hashes without a new Linux run.
+    These are machine checks and agent audits, not human peer review or Palomar
+    editorial review. The complete reusable Palomar workflow and editorial review for the final
+    public commit remain pending. Registration requires a later decision on the
+    actual review.
+alignment:
+  namespace: IncidenceBounds
+  statements:
+    - source: Main incidence argument, characteristic zero with improved linear term
+      lean: IncidenceBounds.arbitrary_charZero
+      module: Solution
+      status: adapted
+    - source: Main incidence argument, positive characteristic with improved linear term
+      lean: IncidenceBounds.arbitrary_charP
+      module: Solution
+      status: adapted
+    - source: Subcritical refinement, mn <= p^3 over arbitrary characteristic-p fields
+      lean: IncidenceBounds.subcritical
+      module: Solution
+      status: adapted
+    - source: Prime-field refinement combining the subcritical and finite-plane bounds
+      lean: IncidenceBounds.prime_field
+      module: Solution
+      status: proved

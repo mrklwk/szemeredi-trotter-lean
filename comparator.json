@@ -1,0 +1,15 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "IncidenceBounds.arbitrary_charZero",
+    "IncidenceBounds.arbitrary_charP",
+    "IncidenceBounds.subcritical",
+    "IncidenceBounds.prime_field"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ]
+}
