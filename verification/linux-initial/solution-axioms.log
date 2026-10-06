@@ -1,0 +1,4 @@
+'IncidenceBounds.arbitrary_charZero' depends on axioms: [propext, choice, Quot.sound]
+'IncidenceBounds.arbitrary_charP' depends on axioms: [propext, choice, Quot.sound]
+'IncidenceBounds.subcritical' depends on axioms: [propext, choice, Quot.sound]
+'IncidenceBounds.prime_field' depends on axioms: [propext, choice, Quot.sound]

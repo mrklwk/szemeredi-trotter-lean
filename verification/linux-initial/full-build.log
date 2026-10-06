@@ -1,0 +1,177 @@
+ℹ [417/902] Built MathCollab.Smoke (190ms)
+info: MathCollab/Smoke.lean:16:0: 'MathCollab.add_zero_smoke' does not depend on any axioms
+info: MathCollab/Smoke.lean:17:0: 'MathCollab.identity_smoke' does not depend on any axioms
+ℹ [3126/3168] Built MathCollab.MathlibSmoke (600ms)
+info: MathCollab/MathlibSmoke.lean:16:0: 'MathCollab.real_add_zero_smoke' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MathCollab/MathlibSmoke.lean:17:0: 'MathCollab.square_nonnegative_smoke' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [3127/3168] Built MathCollab.DegreeSpaces (886ms)
+ℹ [3128/3168] Built MathCollab.IncidenceCounting (1.4s)
+info: MathCollab/IncidenceCounting.lean:190:0: 'MathCollab.IncidenceCounting.graph_count_le_card_lines_add_choose' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/IncidenceCounting.lean:191:0: 'MathCollab.IncidenceCounting.vertical_count_le' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/IncidenceCounting.lean:192:0: 'MathCollab.IncidenceCounting.graph_vertical_count_le_of_exceptional_budget' depends on axioms: [propext,
+ choice,
+ Quot.sound]
+✔ [3129/3168] Built MathCollab.MulSpaces (1.2s)
+✔ [3130/3168] Built MathCollab.Jets (1.2s)
+ℹ [3131/3168] Built MathCollab.IncidenceOptimization (1.9s)
+info: MathCollab/IncidenceOptimization.lean:210:0: 'MathCollab.IncidenceOptimization.slopeHeight_strict' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MathCollab/IncidenceOptimization.lean:211:0: 'MathCollab.IncidenceOptimization.floorDegree_properties' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MathCollab/IncidenceOptimization.lean:212:0: 'MathCollab.IncidenceOptimization.clippedDegree_properties' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MathCollab/IncidenceOptimization.lean:213:0: 'MathCollab.IncidenceOptimization.exact_bound_charZero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MathCollab/IncidenceOptimization.lean:214:0: 'MathCollab.IncidenceOptimization.exact_bound_positiveChar' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3132/3168] Built MathCollab.JetsAudit (845ms)
+info: MathCollab/JetsAudit.lean:57:0: 'MathCollab.finrank_degSpace' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MathCollab/JetsAudit.lean:58:0: 'MathCollab.jetMap_jetBasisPoly' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MathCollab/JetsAudit.lean:59:0: 'MathCollab.jetMapDeg_jetInterp' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MathCollab/JetsAudit.lean:60:0: 'MathCollab.jetMapDeg_surjective' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MathCollab/JetsAudit.lean:61:0: 'MathCollab.finrank_ker_jetMapDeg_add_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MathCollab/JetsAudit.lean:62:0: 'MathCollab.finrank_ker_jetMapDeg_add_sum_eq_choose' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [3133/3168] Built MathCollab.JetBudget (880ms)
+ℹ [3134/3168] Built MathCollab.SlopeForcing (1.3s)
+info: MathCollab/SlopeForcing.lean:109:0: 'MathCollab.SlopeForcing.X_pow_card_sub_dvd' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/SlopeForcing.lean:110:0: 'MathCollab.SlopeForcing.X_pow_card_sub_dvd_of_natDegree_le' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/SlopeForcing.lean:111:0: 'MathCollab.SlopeForcing.eq_zero_of_forced_order_gt_degree' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/SlopeForcing.lean:112:0: 'MathCollab.SlopeForcing.incidentSlopes_card' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/SlopeForcing.lean:113:0: 'MathCollab.SlopeForcing.X_pow_incidence_sub_dvd' depends on axioms: [propext, choice, Quot.sound]
+✔ [3135/3168] Built MathCollab.IncidenceCountingExamples (1.5s)
+✔ [3136/3168] Built MathCollab.IncidenceOptimizationExamples (1.2s)
+ℹ [3137/3168] Built MathCollab.JetBudgetAudit (814ms)
+info: MathCollab/JetBudgetAudit.lean:86:0: 'MathCollab.finrank_mulSpace' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MathCollab/JetBudgetAudit.lean:87:0: 'MathCollab.mulSpace_inf_mulSpace' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MathCollab/JetBudgetAudit.lean:88:0: 'MathCollab.choose_add_choose_add_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MathCollab/JetBudgetAudit.lean:89:0: 'MathCollab.finrank_mulSpace_sup_add_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MathCollab/JetBudgetAudit.lean:90:0: 'MathCollab.jetMap_mul_eq_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MathCollab/JetBudgetAudit.lean:91:0: 'MathCollab.mulSpace_le_jetKernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MathCollab/JetBudgetAudit.lean:92:0: 'MathCollab.sum_le_totalDegree_mul_of_jets' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MathCollab/JetBudgetAudit.lean:93:0: 'MathCollab.isRelPrime_X_zero_X_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MathCollab/JetBudgetAudit.lean:94:0: 'MathCollab.not_isCoprime_X_zero_X_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3138/3168] Built MathCollab.FamilySpace (1.6s)
+info: MathCollab/FamilySpace.lean:182:0: 'MathCollab.FamilySpace.graphRestrict_natDegree_le' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/FamilySpace.lean:183:0: 'MathCollab.FamilySpace.finrank_coeffSpace' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/FamilySpace.lean:184:0: 'MathCollab.FamilySpace.exists_family' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/FamilySpace.lean:185:0: 'MathCollab.FamilySpace.exists_family_with_floor' depends on axioms: [propext, choice, Quot.sound]
+✔ [3139/3168] Built MathCollab.Multiplicity (1.1s)
+✔ [3140/3168] Built MathCollab.SlopeForcingExamples (1.2s)
+✔ [3141/3168] Built MathCollab.MultiplicityParallel (766ms)
+ℹ [3142/3168] Built MathCollab.FamilySpaceExamples (1.2s)
+info: MathCollab/FamilySpaceExamples.lean:41:0: 'MathCollab.finrank_degSpace' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/FamilySpaceExamples.lean:42:0: 'MathCollab.mulSpace_inf_mulSpace' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/FamilySpaceExamples.lean:43:0: 'MathCollab.finrank_mulSpace_sup_add_mul' depends on axioms: [propext, choice, Quot.sound]
+ℹ [3143/3168] Built MathCollab.SlopeSubstitution (1.3s)
+info: MathCollab/SlopeSubstitution.lean:237:0: 'MathCollab.SlopeSubstitution.pointRestriction_coeff_natDegree_le' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/SlopeSubstitution.lean:238:0: 'MathCollab.SlopeSubstitution.pointRestriction_natDegree_le' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/SlopeSubstitution.lean:239:0: 'MathCollab.SlopeSubstitution.specialize_pointRestriction' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/SlopeSubstitution.lean:240:0: 'MathCollab.SlopeSubstitution.X_pow_incidence_sub_dvd' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/SlopeSubstitution.lean:241:0: 'MathCollab.SlopeSubstitution.exists_family_with_point_restrictions' depends on axioms: [propext, choice, Quot.sound]
+ℹ [3144/3168] Built MathCollab.MultiplicityAudit (765ms)
+info: MathCollab/MultiplicityAudit.lean:63:0: 'MathCollab.lineRestrict_pderiv_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MathCollab/MultiplicityAudit.lean:64:0: 'MathCollab.exists_yOnly_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MathCollab/MultiplicityAudit.lean:65:0: 'MathCollab.pderiv_zero_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MathCollab/MultiplicityAudit.lean:66:0: 'MathCollab.isRelPrime_pderiv_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MathCollab/MultiplicityAudit.lean:67:0: 'MathCollab.sum_sub_one_le_of_squarefree' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MathCollab/MultiplicityAudit.lean:68:0: 'MathCollab.sum_sub_one_le_of_squarefree_charZero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MathCollab/MultiplicityAudit.lean:69:0: 'MathCollab.sum_sub_one_le_of_squarefree_charP' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MathCollab/MultiplicityAudit.lean:70:0: 'MathCollab.totalDegree_aeval_le_of_linear' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MathCollab/MultiplicityAudit.lean:71:0: 'MathCollab.lineRestrict_shear' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MathCollab/MultiplicityAudit.lean:72:0: 'MathCollab.lineRestrict_rename_swap' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MathCollab/MultiplicityAudit.lean:73:0: 'MathCollab.sum_sub_one_le_of_squarefree_slope' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MathCollab/MultiplicityAudit.lean:74:0: 'MathCollab.sum_sub_one_le_of_squarefree_vertical' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3145/3168] Built MathCollab.SlopeSubstitutionExamples (1.1s)
+info: MathCollab/SlopeSubstitutionExamples.lean:87:0: 'MathCollab.SlopeSubstitutionExamples.exceptionalFamily_ne_zero' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/SlopeSubstitutionExamples.lean:88:0: 'MathCollab.SlopeSubstitutionExamples.exceptionalFamily_restriction_zero' depends on axioms: [propext,
+ choice,
+ Quot.sound]
+info: MathCollab/SlopeSubstitutionExamples.lean:89:0: 'MathCollab.SlopeSubstitutionExamples.sharpFamily_coefficient' depends on axioms: [propext, choice, Quot.sound]
+ℹ [3146/3168] Built MathCollab.SquarefreeFamily (1.1s)
+info: MathCollab/SquarefreeFamily.lean:122:0: 'MathCollab.SquarefreeFamily.totalDegree_reorder_le_iff' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/SquarefreeFamily.lean:123:0: 'MathCollab.SquarefreeFamily.coeff_totalDegree_le_of_dvd' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/SquarefreeFamily.lean:124:0: 'MathCollab.SquarefreeFamily.map_eq_zero_of_dvd_pow' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/SquarefreeFamily.lean:125:0: 'MathCollab.SquarefreeFamily.exists_squarefree_replacement' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/SquarefreeFamily.lean:126:0: 'MathCollab.SquarefreeFamily.exists_squarefree_family' depends on axioms: [propext, choice, Quot.sound]
+ℹ [3147/3168] Built MathCollab.SquarefreeFamilyExamples (997ms)
+info: MathCollab/SquarefreeFamilyExamples.lean:51:0: 'MathCollab.SquarefreeFamilyExamples.pure_slope_replacement' depends on axioms: [propext, choice, Quot.sound]
+ℹ [3148/3168] Built MathCollab.GenericSlope (1.2s)
+info: MathCollab/GenericSlope.lean:185:0: 'MathCollab.GenericSlope.genericFamily_injective' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/GenericSlope.lean:186:0: 'MathCollab.GenericSlope.genericFamily_squarefree' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/GenericSlope.lean:187:0: 'MathCollab.GenericSlope.genericFamily_totalDegree_le' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/GenericSlope.lean:188:0: 'MathCollab.GenericSlope.characteristic_bound' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/GenericSlope.lean:190:0: 'MathCollab.GenericSlope.intercept_injective' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/GenericSlope.lean:191:0: 'MathCollab.GenericSlope.genericRestrict_genericFamily' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/GenericSlope.lean:192:0: 'MathCollab.GenericSlope.genericRestrict_eq_zero_iff' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/GenericSlope.lean:193:0: 'MathCollab.GenericSlope.X_pow_incidence_sub_dvd' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/GenericSlope.lean:194:0: 'MathCollab.GenericSlope.pure_slope_isUnit' depends on axioms: [propext, choice, Quot.sound]
+✔ [3149/3168] Built MathCollab.GenericSlopeExamples (890ms)
+ℹ [3150/3168] Built MathCollab.Exceptional (1.5s)
+info: MathCollab/Exceptional.lean:151:0: 'MathCollab.Exceptional.factorRoot_injective' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/Exceptional.lean:152:0: 'MathCollab.Exceptional.evaluate_pointRestriction' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/Exceptional.lean:153:0: 'MathCollab.Exceptional.exceptionalSet_card_le' depends on axioms: [propext, choice, Quot.sound]
+ℹ [3151/3168] Built MathCollab.ExceptionalExamples (874ms)
+info: MathCollab/ExceptionalExamples.lean:48:0: 'MathCollab.ExceptionalExamples.sharp_exceptional_card' depends on axioms: [propext, choice, Quot.sound]
+ℹ [3152/3168] Built MathCollab.Parameterized (849ms)
+info: MathCollab/Parameterized.lean:39:0: 'MathCollab.Parameterized.localized_multiplicity' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/Parameterized.lean:61:0: 'MathCollab.Parameterized.discrete_bound' depends on axioms: [propext, choice, Quot.sound]
+ℹ [3153/3168] Built MathCollab.NormalizedIncidence (791ms)
+info: MathCollab/NormalizedIncidence.lean:57:0: 'MathCollab.NormalizedIncidence.exact_charZero' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/NormalizedIncidence.lean:58:0: 'MathCollab.NormalizedIncidence.exact_charP' depends on axioms: [propext, choice, Quot.sound]
+ℹ [3154/3168] Built MathCollab.AffineNormalization (932ms)
+info: MathCollab/AffineNormalization.lean:150:0: 'MathCollab.AffineNormalization.exists_normalForm' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/AffineNormalization.lean:151:0: 'MathCollab.AffineNormalization.normalForm_injective' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/AffineNormalization.lean:152:0: 'MathCollab.AffineNormalization.incidenceCount_eq_normalized' depends on axioms: [propext, choice, Quot.sound]
+✔ [3155/3168] Built MathCollab.NormalizedIncidenceExamples (1.1s)
+ℹ [3156/3168] Built MathCollab.IncidenceTheorem (839ms)
+info: MathCollab/IncidenceTheorem.lean:82:0: 'MathCollab.IncidenceTheorem.szemeredi_trotter_charZero' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/IncidenceTheorem.lean:83:0: 'MathCollab.IncidenceTheorem.szemeredi_trotter_charP' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/IncidenceTheorem.lean:84:0: 'MathCollab.IncidenceTheorem.affine_charZero' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/IncidenceTheorem.lean:85:0: 'MathCollab.IncidenceTheorem.affine_charP' depends on axioms: [propext, choice, Quot.sound]
+ℹ [3157/3168] Built MathCollab.IncidenceTheoremExamples (965ms)
+info: MathCollab/IncidenceTheoremExamples.lean:75:0: MathCollab.IncidenceTheorem.affine_charZero.{u_1} {K : Type u_1} [Field K] [CharZero K] (P : Finset (K × K))
+  (L : Finset (AffineSubspace K (K × K))) (hL : ∀ l ∈ L, Module.finrank K ↥l.direction = 1) :
+  ↑(MathCollab.IncidenceCounting.count P L fun q l => q ∈ l) ≤ 3 * (↑P.card * ↑L.card) ^ (2 / 3) + 2 * ↑P.card + ↑L.card
+info: MathCollab/IncidenceTheoremExamples.lean:76:0: MathCollab.IncidenceTheorem.affine_charP.{u_1} {K : Type u_1} [Field K] (p : ℕ) [CharP K p] (hp : p ≠ 0)
+  (P : Finset (K × K)) (L : Finset (AffineSubspace K (K × K))) (hL : ∀ l ∈ L, Module.finrank K ↥l.direction = 1) :
+  ↑(MathCollab.IncidenceCounting.count P L fun q l => q ∈ l) ≤
+    3 * (↑P.card * ↑L.card) ^ (2 / 3) + 2 * ↑P.card + ↑L.card + 2 * ↑P.card * ↑L.card / ↑p
+ℹ [3158/3168] Built MathCollab.GenericCoordinates (1.0s)
+info: MathCollab/GenericCoordinates.lean:106:0: 'MathCollab.GenericCoordinates.point_injective' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/GenericCoordinates.lean:107:0: 'MathCollab.GenericCoordinates.line_injective' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/GenericCoordinates.lean:108:0: 'MathCollab.GenericCoordinates.count_eq' depends on axioms: [propext, choice, Quot.sound]
+ℹ [3159/3168] Built MathCollab.IncidenceSharper (894ms)
+info: MathCollab/IncidenceSharper.lean:111:0: 'MathCollab.IncidenceSharper.discrete' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/IncidenceSharper.lean:112:0: 'MathCollab.IncidenceSharper.affine_charZero' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/IncidenceSharper.lean:113:0: 'MathCollab.IncidenceSharper.affine_charP' depends on axioms: [propext, choice, Quot.sound]
+ℹ [3160/3168] Built MathCollab.IncidenceSubcritical (1.1s)
+info: MathCollab/IncidenceSubcritical.lean:81:0: 'MathCollab.IncidenceSubcritical.affine' depends on axioms: [propext, choice, Quot.sound]
+ℹ [3161/3168] Built MathCollab.IncidenceSharperExamples (902ms)
+info: MathCollab/IncidenceSharperExamples.lean:63:0: MathCollab.IncidenceSharper.affine_charZero.{u_1} {K : Type u_1} [Field K] [CharZero K] (P : Finset (K × K))
+  (L : Finset (AffineSubspace K (K × K))) (hL : ∀ l ∈ L, Module.finrank K ↥l.direction = 1) :
+  ↑(MathCollab.IncidenceCounting.count P L fun q l => q ∈ l) ≤ 3 * (↑P.card * ↑L.card) ^ (2 / 3) + ↑P.card + ↑L.card
+info: MathCollab/IncidenceSharperExamples.lean:64:0: MathCollab.IncidenceSharper.affine_charP.{u_1} {K : Type u_1} [Field K] (p : ℕ) [CharP K p] (hp : p ≠ 0)
+  (P : Finset (K × K)) (L : Finset (AffineSubspace K (K × K))) (hL : ∀ l ∈ L, Module.finrank K ↥l.direction = 1) :
+  ↑(MathCollab.IncidenceCounting.count P L fun q l => q ∈ l) ≤
+    3 * (↑P.card * ↑L.card) ^ (2 / 3) + ↑P.card + ↑L.card + 2 * ↑P.card * ↑L.card / ↑p
+info: MathCollab/IncidenceSharperExamples.lean:65:0: MathCollab.IncidenceSubcritical.affine.{u_1} {K : Type u_1} [Field K] (p : ℕ) [CharP K p] (hp : p ≠ 0)
+  (P : Finset (K × K)) (L : Finset (AffineSubspace K (K × K))) (hL : ∀ l ∈ L, Module.finrank K ↥l.direction = 1)
+  (hcap : P.card * L.card ≤ p ^ 3) :
+  ↑(MathCollab.IncidenceCounting.count P L fun q l => q ∈ l) ≤ 3 * (↑P.card * ↑L.card) ^ (2 / 3) + ↑P.card + ↑L.card
+ℹ [3162/3168] Built MathCollab.FinitePlaneIncidence (1.0s)
+info: MathCollab/FinitePlaneIncidence.lean:153:0: 'MathCollab.FinitePlaneIncidence.variance_le' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/FinitePlaneIncidence.lean:154:0: 'MathCollab.FinitePlaneIncidence.lines' depends on axioms: [propext, choice, Quot.sound]
+ℹ [3163/3168] Built MathCollab.IncidencePrime (1.0s)
+info: MathCollab/IncidencePrime.lean:69:0: 'MathCollab.IncidencePrime.affine' depends on axioms: [propext, choice, Quot.sound]
+ℹ [3164/3168] Built MathCollab.IncidencePrimeAudit (821ms)
+info: MathCollab/IncidencePrimeAudit.lean:59:0: MathCollab.IncidencePrime.affine : ∀ (p : ℕ) [inst : Fact (Nat.Prime p)] (P : Finset (ZMod p × ZMod p))
+  (L : Finset (AffineSubspace (ZMod p) (ZMod p × ZMod p))),
+  (∀ l ∈ L, Module.finrank (ZMod p) ↥l.direction = 1) →
+    ↑(MathCollab.IncidenceCounting.count P L fun q l => q ∈ l) ≤
+      3 * (↑P.card * ↑L.card) ^ (2 / 3) + ↑P.card + ↑L.card + ↑P.card * ↑L.card / ↑p
+info: MathCollab/IncidencePrimeAudit.lean:60:0: 'MathCollab.FinitePlaneIncidence.variance_le' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/IncidencePrimeAudit.lean:61:0: 'MathCollab.FinitePlaneIncidence.lines' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/IncidencePrimeAudit.lean:62:0: 'MathCollab.IncidencePrime.affine' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/IncidencePrimeAudit.lean:63:0: 'MathCollab.IncidencePrimeAudit.paper_prime' depends on axioms: [propext, choice, Quot.sound]
+✔ [3165/3168] Built MathCollab (749ms)
+ℹ [3167/3168] Built Solution (846ms)
+info: Solution.lean:56:0: 'IncidenceBounds.arbitrary_charZero' depends on axioms: [propext, choice, Quot.sound]
+info: Solution.lean:57:0: 'IncidenceBounds.arbitrary_charP' depends on axioms: [propext, choice, Quot.sound]
+info: Solution.lean:58:0: 'IncidenceBounds.subcritical' depends on axioms: [propext, choice, Quot.sound]
+info: Solution.lean:59:0: 'IncidenceBounds.prime_field' depends on axioms: [propext, choice, Quot.sound]
+Build completed successfully (3168 jobs).

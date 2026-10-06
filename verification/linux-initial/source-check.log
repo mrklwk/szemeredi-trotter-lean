@@ -1,0 +1,11 @@
+{
+  "lean_sources": 43,
+  "module_headers": true,
+  "line_limits": true,
+  "challenge_lines": 57,
+  "challenge_bytes": 2487,
+  "challenge_specification_holes": 4,
+  "solution_imports_challenge": false,
+  "statement_headers_textually_identical": true,
+  "scope": "Source structure only; no build or Comparator claim"
+}
