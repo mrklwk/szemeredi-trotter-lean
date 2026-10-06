@@ -1,0 +1,119 @@
+Current branch: HEAD
+Using cache from origin: (some leanprover-community/mathlib4)
+No files to download
+Already decompressed 8915 file(s)
+Resolving dependencies
+Building Challenge
+⚠ [2157/2158] Built Challenge (646ms)
+warning: Challenge.lean:22:8: declaration uses `sorry`
+warning: Challenge.lean:30:8: declaration uses `sorry`
+warning: Challenge.lean:39:8: declaration uses `sorry`
+warning: Challenge.lean:48:8: declaration uses `sorry`
+Build completed successfully (2158 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, IncidenceBounds.arbitrary_charZero, IncidenceBounds.arbitrary_charP, IncidenceBounds.subcritical, IncidenceBounds.prime_field, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from Challenge
+Building Solution
+ℹ [3124/3150] Replayed MathCollab.IncidenceOptimization
+info: MathCollab/IncidenceOptimization.lean:210:0: 'MathCollab.IncidenceOptimization.slopeHeight_strict' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MathCollab/IncidenceOptimization.lean:211:0: 'MathCollab.IncidenceOptimization.floorDegree_properties' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MathCollab/IncidenceOptimization.lean:212:0: 'MathCollab.IncidenceOptimization.clippedDegree_properties' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MathCollab/IncidenceOptimization.lean:213:0: 'MathCollab.IncidenceOptimization.exact_bound_charZero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MathCollab/IncidenceOptimization.lean:214:0: 'MathCollab.IncidenceOptimization.exact_bound_positiveChar' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3125/3150] Replayed MathCollab.FamilySpace
+info: MathCollab/FamilySpace.lean:182:0: 'MathCollab.FamilySpace.graphRestrict_natDegree_le' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/FamilySpace.lean:183:0: 'MathCollab.FamilySpace.finrank_coeffSpace' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/FamilySpace.lean:184:0: 'MathCollab.FamilySpace.exists_family' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/FamilySpace.lean:185:0: 'MathCollab.FamilySpace.exists_family_with_floor' depends on axioms: [propext, choice, Quot.sound]
+ℹ [3126/3150] Replayed MathCollab.IncidenceCounting
+info: MathCollab/IncidenceCounting.lean:190:0: 'MathCollab.IncidenceCounting.graph_count_le_card_lines_add_choose' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/IncidenceCounting.lean:191:0: 'MathCollab.IncidenceCounting.vertical_count_le' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/IncidenceCounting.lean:192:0: 'MathCollab.IncidenceCounting.graph_vertical_count_le_of_exceptional_budget' depends on axioms: [propext,
+ choice,
+ Quot.sound]
+ℹ [3127/3150] Replayed MathCollab.SlopeForcing
+info: MathCollab/SlopeForcing.lean:109:0: 'MathCollab.SlopeForcing.X_pow_card_sub_dvd' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/SlopeForcing.lean:110:0: 'MathCollab.SlopeForcing.X_pow_card_sub_dvd_of_natDegree_le' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/SlopeForcing.lean:111:0: 'MathCollab.SlopeForcing.eq_zero_of_forced_order_gt_degree' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/SlopeForcing.lean:112:0: 'MathCollab.SlopeForcing.incidentSlopes_card' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/SlopeForcing.lean:113:0: 'MathCollab.SlopeForcing.X_pow_incidence_sub_dvd' depends on axioms: [propext, choice, Quot.sound]
+ℹ [3128/3150] Replayed MathCollab.SlopeSubstitution
+info: MathCollab/SlopeSubstitution.lean:237:0: 'MathCollab.SlopeSubstitution.pointRestriction_coeff_natDegree_le' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/SlopeSubstitution.lean:238:0: 'MathCollab.SlopeSubstitution.pointRestriction_natDegree_le' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/SlopeSubstitution.lean:239:0: 'MathCollab.SlopeSubstitution.specialize_pointRestriction' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/SlopeSubstitution.lean:240:0: 'MathCollab.SlopeSubstitution.X_pow_incidence_sub_dvd' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/SlopeSubstitution.lean:241:0: 'MathCollab.SlopeSubstitution.exists_family_with_point_restrictions' depends on axioms: [propext, choice, Quot.sound]
+ℹ [3129/3150] Replayed MathCollab.SquarefreeFamily
+info: MathCollab/SquarefreeFamily.lean:122:0: 'MathCollab.SquarefreeFamily.totalDegree_reorder_le_iff' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/SquarefreeFamily.lean:123:0: 'MathCollab.SquarefreeFamily.coeff_totalDegree_le_of_dvd' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/SquarefreeFamily.lean:124:0: 'MathCollab.SquarefreeFamily.map_eq_zero_of_dvd_pow' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/SquarefreeFamily.lean:125:0: 'MathCollab.SquarefreeFamily.exists_squarefree_replacement' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/SquarefreeFamily.lean:126:0: 'MathCollab.SquarefreeFamily.exists_squarefree_family' depends on axioms: [propext, choice, Quot.sound]
+ℹ [3131/3150] Replayed MathCollab.GenericSlope
+info: MathCollab/GenericSlope.lean:185:0: 'MathCollab.GenericSlope.genericFamily_injective' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/GenericSlope.lean:186:0: 'MathCollab.GenericSlope.genericFamily_squarefree' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/GenericSlope.lean:187:0: 'MathCollab.GenericSlope.genericFamily_totalDegree_le' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/GenericSlope.lean:188:0: 'MathCollab.GenericSlope.characteristic_bound' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/GenericSlope.lean:190:0: 'MathCollab.GenericSlope.intercept_injective' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/GenericSlope.lean:191:0: 'MathCollab.GenericSlope.genericRestrict_genericFamily' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/GenericSlope.lean:192:0: 'MathCollab.GenericSlope.genericRestrict_eq_zero_iff' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/GenericSlope.lean:193:0: 'MathCollab.GenericSlope.X_pow_incidence_sub_dvd' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/GenericSlope.lean:194:0: 'MathCollab.GenericSlope.pure_slope_isUnit' depends on axioms: [propext, choice, Quot.sound]
+ℹ [3132/3150] Replayed MathCollab.Exceptional
+info: MathCollab/Exceptional.lean:151:0: 'MathCollab.Exceptional.factorRoot_injective' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/Exceptional.lean:152:0: 'MathCollab.Exceptional.evaluate_pointRestriction' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/Exceptional.lean:153:0: 'MathCollab.Exceptional.exceptionalSet_card_le' depends on axioms: [propext, choice, Quot.sound]
+ℹ [3133/3150] Replayed MathCollab.Parameterized
+info: MathCollab/Parameterized.lean:39:0: 'MathCollab.Parameterized.localized_multiplicity' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/Parameterized.lean:61:0: 'MathCollab.Parameterized.discrete_bound' depends on axioms: [propext, choice, Quot.sound]
+ℹ [3134/3150] Replayed MathCollab.NormalizedIncidence
+info: MathCollab/NormalizedIncidence.lean:57:0: 'MathCollab.NormalizedIncidence.exact_charZero' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/NormalizedIncidence.lean:58:0: 'MathCollab.NormalizedIncidence.exact_charP' depends on axioms: [propext, choice, Quot.sound]
+ℹ [3137/3150] Replayed MathCollab.AffineNormalization
+info: MathCollab/AffineNormalization.lean:150:0: 'MathCollab.AffineNormalization.exists_normalForm' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/AffineNormalization.lean:151:0: 'MathCollab.AffineNormalization.normalForm_injective' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/AffineNormalization.lean:152:0: 'MathCollab.AffineNormalization.incidenceCount_eq_normalized' depends on axioms: [propext, choice, Quot.sound]
+ℹ [3138/3150] Replayed MathCollab.IncidenceTheorem
+info: MathCollab/IncidenceTheorem.lean:82:0: 'MathCollab.IncidenceTheorem.szemeredi_trotter_charZero' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/IncidenceTheorem.lean:83:0: 'MathCollab.IncidenceTheorem.szemeredi_trotter_charP' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/IncidenceTheorem.lean:84:0: 'MathCollab.IncidenceTheorem.affine_charZero' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/IncidenceTheorem.lean:85:0: 'MathCollab.IncidenceTheorem.affine_charP' depends on axioms: [propext, choice, Quot.sound]
+ℹ [3139/3150] Replayed MathCollab.GenericCoordinates
+info: MathCollab/GenericCoordinates.lean:106:0: 'MathCollab.GenericCoordinates.point_injective' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/GenericCoordinates.lean:107:0: 'MathCollab.GenericCoordinates.line_injective' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/GenericCoordinates.lean:108:0: 'MathCollab.GenericCoordinates.count_eq' depends on axioms: [propext, choice, Quot.sound]
+ℹ [3140/3150] Replayed MathCollab.IncidenceSharper
+info: MathCollab/IncidenceSharper.lean:111:0: 'MathCollab.IncidenceSharper.discrete' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/IncidenceSharper.lean:112:0: 'MathCollab.IncidenceSharper.affine_charZero' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/IncidenceSharper.lean:113:0: 'MathCollab.IncidenceSharper.affine_charP' depends on axioms: [propext, choice, Quot.sound]
+ℹ [3141/3150] Replayed MathCollab.IncidenceSubcritical
+info: MathCollab/IncidenceSubcritical.lean:81:0: 'MathCollab.IncidenceSubcritical.affine' depends on axioms: [propext, choice, Quot.sound]
+ℹ [3146/3150] Replayed MathCollab.FinitePlaneIncidence
+info: MathCollab/FinitePlaneIncidence.lean:153:0: 'MathCollab.FinitePlaneIncidence.variance_le' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/FinitePlaneIncidence.lean:154:0: 'MathCollab.FinitePlaneIncidence.lines' depends on axioms: [propext, choice, Quot.sound]
+ℹ [3147/3150] Replayed MathCollab.IncidencePrime
+info: MathCollab/IncidencePrime.lean:69:0: 'MathCollab.IncidencePrime.affine' depends on axioms: [propext, choice, Quot.sound]
+ℹ [3148/3150] Replayed MathCollab.IncidencePrimeAudit
+info: MathCollab/IncidencePrimeAudit.lean:59:0: MathCollab.IncidencePrime.affine : ∀ (p : ℕ) [inst : Fact (Nat.Prime p)] (P : Finset (ZMod p × ZMod p))
+  (L : Finset (AffineSubspace (ZMod p) (ZMod p × ZMod p))),
+  (∀ l ∈ L, Module.finrank (ZMod p) ↥l.direction = 1) →
+    ↑(MathCollab.IncidenceCounting.count P L fun q l => q ∈ l) ≤
+      3 * (↑P.card * ↑L.card) ^ (2 / 3) + ↑P.card + ↑L.card + ↑P.card * ↑L.card / ↑p
+info: MathCollab/IncidencePrimeAudit.lean:60:0: 'MathCollab.FinitePlaneIncidence.variance_le' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/IncidencePrimeAudit.lean:61:0: 'MathCollab.FinitePlaneIncidence.lines' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/IncidencePrimeAudit.lean:62:0: 'MathCollab.IncidencePrime.affine' depends on axioms: [propext, choice, Quot.sound]
+info: MathCollab/IncidencePrimeAudit.lean:63:0: 'MathCollab.IncidencePrimeAudit.paper_prime' depends on axioms: [propext, choice, Quot.sound]
+ℹ [3149/3150] Replayed Solution
+info: Solution.lean:56:0: 'IncidenceBounds.arbitrary_charZero' depends on axioms: [propext, choice, Quot.sound]
+info: Solution.lean:57:0: 'IncidenceBounds.arbitrary_charP' depends on axioms: [propext, choice, Quot.sound]
+info: Solution.lean:58:0: 'IncidenceBounds.subcritical' depends on axioms: [propext, choice, Quot.sound]
+info: Solution.lean:59:0: 'IncidenceBounds.prime_field' depends on axioms: [propext, choice, Quot.sound]
+Build completed successfully (3150 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, IncidenceBounds.arbitrary_charZero, IncidenceBounds.arbitrary_charP, IncidenceBounds.subcritical, IncidenceBounds.prime_field, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from Solution
+Running con-ron kernel on solution
+con-ron: 1 inductive blocks modelled in-process: Lean.Syntax (30 generated records, checked by the fold as declarations and not counted as records of the file)
+con-ron: accepted 31130 declarations (--verified)
+con-ron kernel accepts the solution
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution
+Lean default kernel accepts the solution
+Your solution is okay!
